@@ -8,7 +8,7 @@ namespace CoolShopTest.Application
         {
             if (args.Length != 3)
             {
-                Console.WriteLine("Invalid number of arguments - Use: dotnet run <file_path> <column_number> <search_key>");
+                Console.WriteLine("Invalid number of arguments - Use: dotnet run <csv_file_path> <column_number> <search_key>");
                 return;
             }
 
