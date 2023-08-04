@@ -12,9 +12,9 @@ namespace CoolShopTest.Application
                 return;
             }
 
-            string filePath = args[0];
+            var filePath = args[0];
             var columnNumber = int.Parse(args[1]);
-            string searchKey = args[2];
+            var searchKey = args[2];
 
             CsvSearchHelper.Search(filePath, columnNumber, searchKey);
         }
