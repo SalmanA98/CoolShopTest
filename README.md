@@ -1,4 +1,6 @@
 # CoolShopTest
+Introduction: A script to search and retrieve a row by inputting the filename, column and search key. 
+The program uses third-party library - CsvHelper.
 
 To run do the following steps:
 1. Clone the repository
