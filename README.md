@@ -2,6 +2,8 @@
 Introduction: A script to search and retrieve a row by inputting the filename, column and search key. 
 The program uses third-party library - CsvHelper.
 
+This project is build on dotnet 7 using Visual Studio 2022.
+
 To run the script, do the following steps:
 1. Clone the repository
 2. Open the location in CMD
