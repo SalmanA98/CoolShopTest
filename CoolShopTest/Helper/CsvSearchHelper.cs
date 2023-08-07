@@ -29,7 +29,7 @@ namespace CoolShopTest.Helper
                             return;
                     }
 
-                    if (valueToSearch != null && valueToSearch.Equals(searchKey, StringComparison.OrdinalIgnoreCase))
+                    if (valueToSearch != null && valueToSearch.Equals(searchKey, StringComparison.InvariantCultureIgnoreCase))
                     {
                         Console.WriteLine($"{record.Id}, {record.LastName}, {record.FirstName}, {record.BirthDate}");
                         return;
